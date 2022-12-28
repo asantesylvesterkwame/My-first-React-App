@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Navbar from "./components/navbar";
-
+import Background from "./components/Background";
 function App() {
   return (
-    <Navbar/>
+    <Fragment>
+      <Background/>
+      <Navbar/>
+    </Fragment>
+    
+
+    
   );
 }
 
