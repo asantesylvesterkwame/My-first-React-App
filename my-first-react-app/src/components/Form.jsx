@@ -51,7 +51,7 @@ function Form(props) {
             </div>
             <div className="Formdisplay">
                 <div className="CVTitleBar">
-                    <div><h1>User's Name</h1></div>
+                    <div><h1>Sylvester <span>Asante</span></h1></div>
                 </div>
                 <div className="CVbody">
                         <div className="infoSection">
@@ -101,8 +101,8 @@ function Form(props) {
                                     
                                          <div>
                                           <h5>University Name</h5>
-                                         <p>Degree:<span> State Degree</span></p>
-                                         <p>Subject: <span>State Program/Subject</span></p>
+                                         <p>Degree:<span> Enter Degree</span></p>
+                                         <p>Subject: <span>Enter Program/Subject</span></p>
                                         </div>   
                                     </div>
                                 </div>
@@ -111,7 +111,19 @@ function Form(props) {
                                 
                         </div>
                         <div className="personalDetailsDiv">
-                            <div><img src="" alt="" /></div>
+                            <div className="Userphotodiv"><img src={Photo} alt="UserPhoto" /></div>
+                           <h4>Personal Details</h4>
+                           <hr />
+                            <div className="personalDetails">
+                                <h5>Address</h5>
+                                <p>Address goes here...</p>
+
+                                <h5>Phone Number</h5>
+                                <p>1234567890</p>
+
+                                <h5>Email</h5>
+                                <p>Email goes here...</p>
+                            </div>
                         </div>
                     </div>
             </div>
