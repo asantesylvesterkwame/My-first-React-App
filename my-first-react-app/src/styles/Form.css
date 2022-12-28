@@ -38,8 +38,38 @@ form{
     background: black;
     color: rgb(255, 61, 61);
 }
+#deleteBtn:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.01,1.01);
+    box-shadow: 1px 2px 4px;
+}
 #addBtn{
     font-weight: 600;
     background: black;
     color: rgb(61, 255, 71);
+}
+#addBtn:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.01,1.01);
+    box-shadow: 1px 2px 4px;
+}
+.actionButtons:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.01,1.01);
+    box-shadow: 1px 2px 4px;
+}
+#printCV{
+    font-weight: 600;
+    background: green;
+    color: aliceblue;
+}
+#loadExample{
+    font-weight: 600;
+    background: goldenrod;
+    color: aliceblue;
+}
+#reset{
+    font-weight: 600;
+    background: rgb(218, 32, 32);
+    color: aliceblue;
 }
