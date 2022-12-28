@@ -82,7 +82,7 @@ form{
 .CVbody{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    
+    box-shadow: 1px 2px 8px;
 }
 .infoSection{
     background-color: azure;
@@ -102,4 +102,20 @@ form{
 }
 p{
     font-weight: 300;
+}
+.Userphotodiv{
+    width: 100%;
+    height: 25%;
+}
+.Userphotodiv>img{
+    width: 100%;
+    height: 100%;
+}
+.personalDetailsDiv{
+    background: grey;
+    padding: 10%;
+    height: 100vh;
+}
+.personalDetailsDiv>hr{
+    opacity: 25%;
 }
