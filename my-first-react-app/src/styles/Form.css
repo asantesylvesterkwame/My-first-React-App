@@ -33,3 +33,13 @@ form{
     resize: none;
     height: 5em;
 }
+#deleteBtn{
+    font-weight: 600;
+    background: black;
+    color: rgb(255, 61, 61);
+}
+#addBtn{
+    font-weight: 600;
+    background: black;
+    color: rgb(61, 255, 71);
+}
