@@ -30,6 +30,24 @@ function Form(props) {
                 <input type='button' id="deleteBtn" value='Delete'/>
                 <input type="button" id="addBtn" value="Add" />
                 </form>
+
+                <h3>Education</h3>
+                <form>
+                <input type="text"  placeholder='University Name' className='Forminputs' />
+                <input type="text"  placeholder='Location' className='Forminputs' />
+                <input type="text"  placeholder='Degree Level' className='Forminputs' />
+                <input type="text"  placeholder='Subject' className='Forminputs' />
+                <input type="text"  placeholder='From' className='Forminputs' />
+                <input type="text"  placeholder='To' className='Forminputs' />
+                <input type='button' id="deleteBtn" value='Delete'/>
+                <input type="button" id="addBtn" value="Add" />
+                </form>
+                <br />
+            <div className="finalActionButtons">
+                <input type="button" className="actionButtons" value="Print CV" />
+                <input type="button" className="actionButtons"value="Load Example"/>
+                <input type="reset" className="actionButtons" value="Reset" />
+                </div>
             </div>
             <div className="Formdisplay">
 
