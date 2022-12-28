@@ -36,7 +36,7 @@ function Form(props) {
                 <input type="text"  placeholder='University Name' className='Forminputs' />
                 <input type="text"  placeholder='Location' className='Forminputs' />
                 <input type="text"  placeholder='Degree Level' className='Forminputs' />
-                <input type="text"  placeholder='Subject' className='Forminputs' />
+                <input type="text"  placeholder='Subject/Program' className='Forminputs' />
                 <input type="text"  placeholder='From' className='Forminputs' />
                 <input type="text"  placeholder='To' className='Forminputs' />
                 <input type='button' id="deleteBtn" value='Delete'/>
@@ -51,9 +51,69 @@ function Form(props) {
             </div>
             <div className="Formdisplay">
                 <div className="CVTitleBar">
-                    <h1>SYLVESTER ASANTE</h1>
-                    
+                    <div><h1>User's Name</h1></div>
                 </div>
+                <div className="CVbody">
+                        <div className="infoSection">
+                            <h4>Description</h4>
+                            <hr/>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus imperdiet nisl sed vestibulum. Donec gravida, nulla eget blandit fermentum, mauris nisi rutrum libero, ac pharetra erat est sit amet tellus. Quisque fermentum dolor a interdum fermentum. Maecenas vehicula ac ipsum nec gravida. Integer quis porta turpis. Aenean et metus.
+                            </p>
+                            <h4>Experience</h4>
+                            <hr />
+                            <div className="experienceDiv">
+                                <div className="experienceDetailDiv">
+                                        <div className="yearsDiv">
+                                            <div><h5>Start Year</h5>-<h5>End Year</h5></div>
+                                        </div>
+                                        <div className="companyDetail"> 
+                                    
+                                         <div>
+                                          <h5>Position</h5>
+                                         <p>Company Name <span>, Location</span></p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            {/* <div className="experienceDetailDiv">
+                                        <div className="yearsDiv">
+                                            <div><h5>From</h5>- <h5>To</h5></div>
+                                        </div>
+                                        <div className="companyDetail"> 
+                                    
+                                         <div>
+                                          <h5>Position</h5>
+                                         <p>Facebook Inc., Menlo Park</p>
+                                        </div>   
+                                    </div>
+                                </div> */}
+
+                            <h4>Education</h4>
+                            <hr />
+                            <div className="eductionDiv">
+                                <div className="experienceDetailDiv">
+                                        <div className="yearsDiv">
+                                            <div><h5>Start Year</h5>-<h5>End Year</h5></div>
+                                        </div>
+                                        <div className="companyDetail"> 
+                                    
+                                         <div>
+                                          <h5>University Name</h5>
+                                         <p>Degree:<span> State Degree</span></p>
+                                         <p>Subject: <span>State Program/Subject</span></p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                
+                            </div>
+                                
+                        </div>
+                        <div className="personalDetailsDiv">
+                            <div><img src="" alt="" /></div>
+                        </div>
+                    </div>
             </div>
         </div>
     );
