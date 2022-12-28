@@ -73,3 +73,9 @@ form{
     background: rgb(218, 32, 32);
     color: aliceblue;
 }
+.CVTitleBar{
+    background: rgb(0, 94, 235);
+    color: aliceblue;
+    padding: 5%;
+    padding-bottom: 10%;
+}
