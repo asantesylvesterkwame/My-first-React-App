@@ -74,8 +74,32 @@ form{
     color: aliceblue;
 }
 .CVTitleBar{
-    background: rgb(0, 94, 235);
+    background: rgb(0, 50, 124);
     color: aliceblue;
     padding: 5%;
     padding-bottom: 10%;
+}
+.CVbody{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.infoSection{
+    background-color: azure;
+    color: rgb(0, 36, 90);
+    padding: 5%;
+    height: 100vh;
+}
+.experienceDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2.5em;
+}
+.experienceDetailDiv{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2em;
+}
+p{
+    font-weight: 300;
 }
