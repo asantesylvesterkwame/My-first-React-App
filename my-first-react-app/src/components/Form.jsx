@@ -50,7 +50,10 @@ function Form(props) {
                 </div>
             </div>
             <div className="Formdisplay">
-
+                <div className="CVTitleBar">
+                    <h1>SYLVESTER ASANTE</h1>
+                    
+                </div>
             </div>
         </div>
     );
