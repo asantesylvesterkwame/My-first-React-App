@@ -44,9 +44,9 @@ function Form(props) {
                 </form>
                 <br />
             <div className="finalActionButtons">
-                <input type="button" className="actionButtons" value="Print CV" />
-                <input type="button" className="actionButtons"value="Load Example"/>
-                <input type="reset" className="actionButtons" value="Reset" />
+                <input type="button" className="actionButtons" id="printCV" value="Print CV" />
+                <input type="button" className="actionButtons" id="loadExample" value="Load Example"/>
+                <input type="reset" className="actionButtons" id="reset" value="Reset" />
                 </div>
             </div>
             <div className="Formdisplay">
