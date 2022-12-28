@@ -19,6 +19,17 @@ function Form(props) {
                     <div className="description"><textarea type="text"  placeholder='Description' className='Forminputs' /></div>
 
                 </form>
+
+                <h3>Experience</h3>
+                <form >
+                <input type="text"  placeholder='Profession/Title' className='Forminputs' />
+                <input type="text"  placeholder='Company Name' className='Forminputs' />
+                <input type="text"  placeholder='Company Location' className='Forminputs' />
+                <input type="text"  placeholder='From' className='Forminputs' />
+                <input type="text"  placeholder='To' className='Forminputs' />
+                <input type='button' id="deleteBtn" value='Delete'/>
+                <input type="button" id="addBtn" value="Add" />
+                </form>
             </div>
             <div className="Formdisplay">
 
